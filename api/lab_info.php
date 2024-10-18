@@ -19,7 +19,7 @@ $labName = isset($_GET['lab']) ? $_GET['lab'] : 'Lab tidak ditemukan';
             <p>Silakan datang ke <?php echo htmlspecialchars($labName); ?> pada tanggal yang telah Anda pilih.</p>
             <p>Jika Anda membutuhkan informasi lebih lanjut, silakan hubungi lab tersebut.</p>
             <div class="mt-6">
-                <a href="../views/dashboard.php" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
+                <a href="/dashboard.php" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
                     Kembali ke Halaman Dashboard
                 </a>
             </div>

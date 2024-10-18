@@ -20,21 +20,21 @@
                 <div class="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600">
                     <h2 class="text-2xl font-bold mb-4">Konsultasi Dokter</h2>
                     <p class="mb-4">Berkonsultasi dengan dokter secara online melalui sistem ini.</p>
-                    <a href="views/login.php" class="bg-white text-blue-500 py-2 px-4 rounded hover:bg-gray-200">Mulai Konsultasi</a>
+                    <a href="login.php" class="bg-white text-blue-500 py-2 px-4 rounded hover:bg-gray-200">Mulai Konsultasi</a>
                 </div>
 
                 <!-- Menu Pendaftaran Skrining Kesehatan -->
                 <div class="bg-green-500 text-white p-6 rounded-lg shadow-lg hover:bg-green-600">
                     <h2 class="text-2xl font-bold mb-4">Pendaftaran Skrining</h2>
                     <p class="mb-4">Daftar untuk melakukan skrining kesehatan di lokasi terdekat.</p>
-                    <a href="views/login.php" class="bg-white text-green-500 py-2 px-4 rounded hover:bg-gray-200">Daftar Skrining</a>
+                    <a href="login.php" class="bg-white text-green-500 py-2 px-4 rounded hover:bg-gray-200">Daftar Skrining</a>
                 </div>
 
                 <!-- Menu Pembelian Obat -->
                 <div class="bg-yellow-500 text-white p-6 rounded-lg shadow-lg hover:bg-yellow-600">
                     <h2 class="text-2xl font-bold mb-4">Pembelian Obat</h2>
                     <p class="mb-4">Beli obat secara online dan dapatkan pengiriman langsung.</p>
-                    <a href="views/login.php" class="bg-white text-yellow-500 py-2 px-4 rounded hover:bg-gray-200">Beli Obat</a>
+                    <a href="login.php" class="bg-white text-yellow-500 py-2 px-4 rounded hover:bg-gray-200">Beli Obat</a>
                 </div>
             </div>
 

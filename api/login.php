@@ -11,7 +11,7 @@
     <div class="container mx-auto py-12">
         <div class="max-w-lg mx-auto bg-white p-8 shadow-md rounded-lg">
             <h1 class="text-2xl font-bold mb-6 text-center">Login</h1>
-            <form action="../controllers/AuthController.php?action=login" method="POST">
+            <form action="AuthController.php?action=login" method="POST">
                 <label class="block mb-2">Email:</label>
                 <input type="email" name="email" class="border border-gray-300 p-2 mb-4 w-full" required>
                 <label class="block mb-2">Password:</label>

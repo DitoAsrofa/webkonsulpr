@@ -30,7 +30,7 @@ class AuthController {
                     $_SESSION['user_name'] = $user['username']; // Simpan nama pengguna dalam sesi
 
                     // Arahkan ke halaman dashboard
-                    header("Location: ../views/dashboard.php");
+                    header("Location: dashboard.php");
                     exit();
                 } else {
                     echo "Login gagal. Email atau password salah!";
@@ -54,7 +54,7 @@ class AuthController {
                 $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
                 if (UserModel::create($username, $email, $hashedPassword)) {
-                    header("Location: ../views/login.php");
+                    header("Location: login.php");
                     exit();
                 } else {
                     die("Registrasi gagal. Coba lagi!");
@@ -69,7 +69,7 @@ class AuthController {
         session_start();
         session_unset(); // Hapus semua variabel sesi
         session_destroy(); // Akhiri sesi
-        header("Location: ../views/login.php"); // Arahkan ke halaman login
+        header("Location: login.php"); // Arahkan ke halaman login
         exit();
     }
 }

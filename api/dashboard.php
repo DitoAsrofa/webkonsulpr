@@ -53,7 +53,7 @@ $userName = $_SESSION['user_name']; // Nama pengguna dari sesi
             <h1 class="text-3xl font-bold">Dashboard</h1>
             <div class="flex items-center space-x-4">
                 <span class="text-gray-700">Hi, <?php echo htmlspecialchars($userName); ?></span>
-                <a href="../controllers/AuthController.php?action=logout" class="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600">Logout</a>
+                <a href="AuthController.php?action=logout" class="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600">Logout</a>
             </div>
         </div>
 
