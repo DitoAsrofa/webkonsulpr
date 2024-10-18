@@ -13,5 +13,21 @@
       "src": "/(.*)",
       "dest": "api/index.php"
     }
+    {
+      "src": "/",
+      "dest": "api/index.php"
+    },
+    {
+      "src": "/landing.php",
+      "dest": "api/landing.php"
+    },
+    {
+      "src": "/login.php",
+      "dest": "api/login.php"
+    },
+    {
+      "src": "/dashboard.php",
+      "dest": "api/dashboard.php"
+    }
   ]
 }
