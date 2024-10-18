@@ -3,12 +3,9 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-// Tentukan path dasar proyek
-define('BASE_PATH', __DIR__ . '/../');
-
-// Sertakan model dan koneksi database
-include_once(BASE_PATH . 'models/UserModel.php');
-include_once(BASE_PATH . 'config/database.php');
+// Sertakan model dan koneksi database (Path relatif)
+include_once 'UserModel.php';
+include_once 'database.php';
 
 class AuthController {
 
