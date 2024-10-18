@@ -1,13 +1,3 @@
-<?php
-session_start();
-if (!isset($_SESSION['user_name'])) {
-    header("Location: login.php");
-    exit();
-}
-
-$userName = $_SESSION['user_name']; // Nama pengguna dari sesi
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
