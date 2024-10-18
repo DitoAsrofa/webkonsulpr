@@ -1,0 +1,50 @@
+/* consult.css */
+.consultation-header {
+    background: linear-gradient(90deg, #724ae8, #60a5fa);
+    padding: 1.5rem;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.consultation-header h1 {
+    font-size: 1.75rem;
+}
+
+.consultation-header a {
+    background-color: #10b981;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    color: white;
+    font-weight: bold;
+}
+
+.consultation-header a:hover {
+    background-color: #059669;
+}
+
+.consultation-container {
+    background-color: #f3f4f6;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 700px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.consultation-container h1 {
+    font-size: 2rem;
+    color: #374151;
+}
+
+.consultation-container p {
+    font-size: 1.125rem;
+    color: #6b7280;
+    margin-top: 1rem;
+}
+
