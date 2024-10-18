@@ -6,10 +6,6 @@
   },
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
-    {
       "src": "/(.*)",
       "dest": "api/index.php"
     },
@@ -28,6 +24,54 @@
     {
       "src": "/dashboard.php",
       "dest": "api/dashboard.php"
+    },
+    {
+      "src": "/register.php",
+      "dest": "api/register.php"
+    },
+    {
+      "src": "/consult.php",
+      "dest": "api/consult.php"
+    },
+    {
+      "src": "/screening.php",
+      "dest": "api/screening.php"
+    },
+    {
+      "src": "/purchase.php",
+      "dest": "api/purchase.php"
+    },
+    {
+      "src": "/receipt.php",
+      "dest": "api/receipt.php"
+    },
+    {
+      "src": "/lab_info.php",
+      "dest": "api/lab_info.php"
+    },
+    {
+      "src": "/AuthController.php",
+      "dest": "api/AuthController.php"
+    },
+    {
+      "src": "/ConsultController.php",
+      "dest": "api/ConsultController.php"
+    },
+    {
+      "src": "/PurchaseController.php",
+      "dest": "api/PurchaseController.php"
+    },
+    {
+      "src": "/ScreeningController.php",
+      "dest": "api/ScreeningController.php"
+    },
+    {
+      "src": "/bot_response.php",
+      "dest": "api/bot_response.php"
+    },
+    {
+      "src": "/home.php",
+      "dest": "api/home.php"
     }
   ]
 }
