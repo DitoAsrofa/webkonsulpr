@@ -3,9 +3,9 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-// Sertakan model dan koneksi database (Path relatif)
-include_once 'UserModel.php';
-include_once 'database.php';
+// Sertakan model dan koneksi database (Gunakan path absolut relatif)
+include_once __DIR__ . '/UserModel.php';
+include_once __DIR__ . '/database.php';
 
 class AuthController {
 
